@@ -1,0 +1,30 @@
+*{
+    background:orangered;
+    margin:0;
+    box-sizing:border-box;
+  }
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+  }
+  .button{
+    position:relative;
+    display:flex;  
+    justify-content:center;
+    align-items:center;
+    width:200px;
+    height:125px;
+    background:aqua;
+    border-radius:25%;
+    font-size:1.25rem;
+    box-shadow:0 0 20px 2px; 
+    z-index:100;
+  }
+  .divider{
+    position:absolute;
+    width:200px;
+    height:100vh;
+    background:yellow;    
+  }
